@@ -3,11 +3,33 @@ mellow-fido
 
 A custom theme  for Mellow Fido CBD
 
-## Quickstart
+## Motivation
 
-### Installation
+## Setup and Design Choices
 
-1. Move this folder to `wp-content/themes` in your local development environment
+### Why `_tw`?
+- I have used LocalWP for the local development of the theme.
+I chose `_tw` (Underscore Tailwind) as the foundation for this theme because it combines the simplicity and flexibility of the Underscores starter theme with the power of Tailwind CSS. This allowed me to:
+- Use a utility-first CSS framework for rapid prototyping and consistent styling.
+- Leverage Tailwind Typography for better typographic control.
+- Easily customize the design while maintaining a lightweight and performant theme.
+
+### Design 
+The design of the Mellow Fido theme focuses on:
+- **Minimalism:** A clean and uncluttered layout to emphasize content and products.
+- **Accessibility:** Ensuring the site is usable for all users, including those with disabilities.
+- **Responsiveness:** Optimized for all devices, from mobile to desktop.
+- **Performance:** Lightweight assets and optimized code for fast loading times.
+
+### Image Sources
+All images used in this theme were sourced from:
+- **Stock Image Platforms:** High-quality images were obtained from platforms like [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/).
+- **Custom Photography:** Some images were provided by the Mellow Fido team to reflect the brand's unique identity.
+
+
+### Installation of Theme
+
+1. Move the generated  folder to `wp-content/themes` in your local development environment
 2. Run `npm install && npm run dev` in this folder
 3. Activate this theme in your local WordPress installation
 
